@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector Atribut</title>
+    <style>
+        /* attribute */
+        a[target] {
+            color: red;
+        }
+        
+        /* attribute value */
+        a[target = _blank] {
+            color: blue;
+        }
+        
+        /* attribute tanpa tag atau menggunakan clas */
+        [title=attribute] {
+            color: blueviolet;
+        }
+        .p[title=attribute] {
+            color: gold;
+        }
+    </style>
+</head>
+<body>
+    <!-- /* attribute */ -->
+    <a href="" target="">_blank</a>
+    <a href="">_parent</a>
+    
+    <!-- /* attribute value */ -->
+    <a href="" target="_blank">_blank</a>
+    <a href="" target="_parent">_parent</a>
+    
+    <!-- /* attribute tanpa tag atau menggunakan clas */ -->
+    <div class="p" title="attribute use value or clas">hi bruh</div>
+        
+</body>
+</html>

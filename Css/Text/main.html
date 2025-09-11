@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text in css</title>
+    <style>
+        /* text-align */
+        #p {
+            text-align: justify;
+        }
+
+        /* text-decoration */
+        .p {
+            text-decoration: underline;
+        }
+
+        /* text-transform */
+        p[title] {
+            text-transform: capitalize;
+        }
+
+        /* text-shadow */
+        p[title=p] {
+            text-shadow: 5px 5px;
+        }
+        </style>
+</head>
+<body>
+    <!-- /* text-align */ -->
+    <p id="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. At tempora voluptatum voluptate aspernatur ullam molestias, ab nam molestiae iure hic tenetur animi, eius veritatis minima.</p>
+    
+    <!-- /* text-decoration */ -->
+    <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit at unde deserunt, inventore nulla repellendus quae expedita corporis voluptatem aspernatur! Autem inventore molestiae repellendus praesentium.</p>
+    
+    <!-- /* text-transformation */ -->
+    <p title="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore minima accusantium repellat soluta vel deleniti cumque ducimus consequuntur quos non laboriosam, suscipit libero est delectus!</p>
+    
+    <!-- /* text-shadow */ -->
+    <p title="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, harum accusantium molestiae nihil minima iure eius quibusdam maxime similique corrupti quaerat ad, illo aliquid maiores.</p>
+    
+</body>
+</html>

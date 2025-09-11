@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector</title>
+    <style>
+        /* selector tag */
+        p {
+            color: aqua;
+        }
+
+        /* selector id */
+        #p {
+            color: red;
+        }
+
+        /* selector class */
+        .p {
+            color: blue;
+        }
+
+        /* selector list */
+        p, #p, .p {
+            color: aquamarine;
+        }
+        
+        /* selector descendent */
+        .ayah p {
+            color: gray;
+        }
+
+        </style>
+</head>
+<body>
+    <!-- /* selector tag */ -->
+    <p>halo</p>
+    
+    <!-- /* selector id */ -->
+    <p id="p">halo</p>
+    
+    
+    <!-- /* selector class */ -->
+    <p class="p">halo</p>
+    
+    
+    <!-- /* selector list */ -->
+    <!--  _-^-_  -->
+    
+
+    <!-- /* selector Descendent */ -->
+    <div class="ayah">
+        <form>
+            <p>halo</p>
+        </form>
+        <p>halo</p>
+    </div>
+</body>
+</html>
